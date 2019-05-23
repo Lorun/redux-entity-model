@@ -1,0 +1,6 @@
+export const REQUEST_STATUS = {
+  TODO: 'TODO',
+  FETCHING: 'FETCHING',
+  COMPLETED: 'COMPLETED',
+  FAILED: 'FAILED'
+};

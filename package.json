@@ -1,0 +1,37 @@
+{
+  "name": "redux-entity-model",
+  "version": "0.0.1",
+  "description": "Flexible entity model to create redux reducers, actions and selectors.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "compile": "babel src -d lib",
+    "clean": "rm -rf ./lib",
+    "example": "node example.js"
+  },
+  "keywords": [
+    "redux",
+    "redux reducer",
+    "redux selectors",
+    "redux actions"
+  ],
+  "author": "Lorun",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorun/redux-entity-model.git"
+  },
+  "homepage": "https://github.com/Lorun/redux-entity-model.git#readme",
+  "dependencies": {
+    "ramda": "0.26.1",
+    "redux": "4.0.1",
+    "redux-create-reducer": "2.0.0",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "prettier": "^1.17.1"
+  }
+}

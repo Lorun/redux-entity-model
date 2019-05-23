@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Build
+lib
+
+# IntelliJ
+.idea
+/*.iml
+*.~*
+*~
